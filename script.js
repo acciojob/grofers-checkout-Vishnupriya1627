@@ -5,7 +5,7 @@ let sum=0;
 
 const getSum = () => {
 //Add your code here
-  let prices = document.querySelectorAll(".price");
+  let prices = document.querySelectorAll(".prices");
 //   console.log(prices[0].innerHTML);
 //   console.log(prices.length);
 	for(const element of prices){
