@@ -18,6 +18,7 @@ const getSum = () => {
     let table = document.querySelector("tbody");
     // table.innerHTML+="<tr><td>Heyaaa!!!</td></tr>"
     const newRow = document.createElement("tr");
+	newRow.setAttribute("id","ans");
     const newData1 = document.createElement("td");
     newData1.innerHTML = "Total";
     const newData2 = document.createElement("td");
